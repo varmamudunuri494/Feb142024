@@ -6,3 +6,7 @@ Library           DateTime
 Suite Setup       Open Browser                about:blank                 chrome
 Suite Teardown    Close All Browsers
 Resource          ../CommonResource/connection.robot
+*** Test Cases ***
+To test amazon site
+    [Tags]        Books
+    Appstate      Home
