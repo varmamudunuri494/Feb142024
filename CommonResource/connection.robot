@@ -20,7 +20,7 @@ Setup Browser
 End suite
     Close All Browsers
 Login
-    [Documentation]             Login to Salesforce instance
+    [Documentation]             Login to Amazon instance
     GoTo                        ${login_url}
     TypeText                    Username                  ${username}                 delay=1
     TypeText                    Password                  ${password}
