@@ -31,5 +31,5 @@ Login
 Home
     [Documentation]             Navigate to homepage, login if needed
     GoTo                        ${home_url}
-    ${login_status} =           IsText                    To access this page, you have to log in to Salesforce.    2
+    ${login_status} =           IsText                    Sign in
     Run Keyword If              ${login_status}           Login
