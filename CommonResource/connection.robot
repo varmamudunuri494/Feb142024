@@ -23,7 +23,7 @@ Login
     [Documentation]             Login to Amazon instance
     GoTo                        ${login_url}
     ClickText                   //*[@id\='nav-link-accountList-nav-line-1']
-    ClickText                   Sign\n In
+    #ClickText                   Sign\n In
     TypeText                    //input[@id\='ap_email']    ${username}    delay=1
     # TypeText                  Password                    ${password}
     ClickText                   Continue
