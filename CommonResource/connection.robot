@@ -23,11 +23,11 @@ Login
     [Documentation]             Login to Amazon instance
     GoTo                        ${login_url}
     ClickText                   //*[@id\='nav-link-accountList-nav-line-1']
-    #ClickText                   Sign\n In
+    #ClickText                  Sign\n In
     TypeText                    //input[@id\='ap_email']    ${username}    delay=1
-    # TypeText                  Password                    ${password}
+    #TypeText                   Password                    ${password}
     ClickText                   //input[@id\='continue']
-    TypeText                    //input[@id\='ap_password']                ${password}    delay=1
+    TypeText                    //input[@id\='ap_password']                ${password}                 delay=1
     ClickText                   //input[@id\='signInSubmit']
 
     # We'll check if variable ${secret} is given. If yes, fill the MFA dialog.
