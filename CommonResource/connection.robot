@@ -26,7 +26,7 @@ Login
     #ClickText                   Sign\n In
     TypeText                    //input[@id\='ap_email']    ${username}    delay=1
     # TypeText                  Password                    ${password}
-    ClickText                   //input[@id='continue']
+    ClickText                   //input[@id\='continue']
     # We'll check if variable ${secret} is given. If yes, fill the MFA dialog.
     # If not, MFA is not expected.
     # ${secret} is ${None} unless specifically given.
