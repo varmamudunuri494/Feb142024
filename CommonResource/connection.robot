@@ -22,7 +22,7 @@ End suite
 Login
     [Documentation]             Login to Amazon instance
     # GoTo                      ${login_url}
-    TypeText                    Email\n or\n mobile\n phone\n number       ${username}                 delay=1
+    TypeText                    //input[@id\='ap_email']       ${username}                 delay=1
     # TypeText                  Password                    ${password}
     ClickText                   Continue
     # We'll check if variable ${secret} is given. If yes, fill the MFA dialog.
