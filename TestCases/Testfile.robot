@@ -9,4 +9,5 @@ Resource          ../CommonResource/connection.robot
 *** Test Cases ***
 To test amazon site
     [Tags]        Varma
+    [Documentation]    Login to Amazon instance
     Appstate      Home
