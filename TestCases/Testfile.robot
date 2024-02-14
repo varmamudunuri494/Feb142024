@@ -8,5 +8,5 @@ Suite Teardown    Close All Browsers
 Resource          ../CommonResource/connection.robot
 *** Test Cases ***
 To test amazon site
-    [Tags]        Books
+    [Tags]        Varma
     Appstate      Home
