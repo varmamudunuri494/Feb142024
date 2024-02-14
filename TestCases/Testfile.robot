@@ -11,3 +11,5 @@ To test amazon site
     [Tags]             Varma
     [Documentation]    Login to Amazon instance
     Appstate           Home
+    ClickText    cvf-submit-otp-button-announce
+    
