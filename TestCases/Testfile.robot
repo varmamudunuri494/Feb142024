@@ -12,4 +12,5 @@ To test amazon site
     [Tags]             Varma
     [Documentation]    Login to Amazon instance
     Appstate           Home
+    Sleep              2s
     
