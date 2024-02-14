@@ -29,10 +29,6 @@ Login
     ClickText                   //input[@id\='continue']
     TypeText                    //input[@id\='ap_password']                ${password}                 delay=1
     ClickText                   //input[@id\='signInSubmit']
-
-    # We'll check if variable ${secret} is given. If yes, fill the MFA dialog.
-    # If not, MFA is not expected.
-    # ${secret} is ${None} unless specifically given.
 Home
     [Documentation]             Navigate to homepage, login if needed
     GoTo                        ${home_url}
