@@ -4,7 +4,6 @@ Library                         String
 *** Variables ***
 # IMPORTANT: Please read the readme.txt to understand needed variables and how to handle them!!
 ${BROWSER}                      chrome
-#${username}                    2emailvarma@gmail.com
 ${login_url}                    https://www.amazon.in/
 ${Home_url}                     https://www.amazon.in/
 
